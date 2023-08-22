@@ -1,0 +1,87 @@
+.header {
+    height: 5rem;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 39, 43);
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.header__leftLogo {
+    object-fit: contain;
+    height: 3rem;
+    margin-left: 20px;
+    
+}
+
+.header__left>h2 {
+    margin: 20px;
+}
+
+.header__vl {
+    border-left: 1px solid gray;
+    height: 3rem;
+}
+
+.header__left>span {
+    margin-left: 15px;
+}
+
+.header__center {
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+    display: flex;
+    width:25%;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.header__center>input {
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    margin-left: 15px;
+    font-size: large;
+    border: none;
+}
+
+.header__center>span{
+    color: white;
+}
+
+.header__CLC {
+    background-color: black;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.header__rightContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__rightContainer>i, .header__rightContainer>div{
+    margin: 20px;
+}

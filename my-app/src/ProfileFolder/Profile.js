@@ -32,6 +32,34 @@ const Profile = () => {
                         url={'https://player.kick.com/cyrusblake89'}
                         title={'Grinding to Ranked'}
                     />
+                    <RecentItem
+                        url={'https://player.kick.com/cyrusblake89'}
+                        title={'Grinding to Ranked'}
+                    />
+                    <RecentItem
+                        url={'https://player.kick.com/cyrusblake89'}
+                        title={'Grinding to Ranked'}
+                    />
+                    <RecentItem
+                        url={'https://player.kick.com/cyrusblake89'}
+                        title={'Grinding to Ranked'}
+                    />
+                </div>
+                <div className="profile__categories">
+            
+                    <h2>CYFI's recently streamed categories</h2>
+                    <div className='profile__categoriesimg'>
+                        <div className='recent__cat'>
+                            <img src="https://files.kick.com/images/subcategories/5/banner/responsives/lol___banner_205_273.webp" alt="" />
+                            <h3>League of Legends</h3>
+                         </div>
+                        {/* <div>
+                            <img src="https://files.kick.com/images/subcategories/3/banner/responsives/fortnite___banner_293_391.webp" alt=""/>
+                            <h3>Fortnite</h3>
+                        </div> */}
+                    </div>
+                    
+                    
                 </div>
             </div>
         </div>

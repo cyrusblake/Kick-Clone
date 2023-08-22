@@ -12,6 +12,7 @@ function App() {
         <Header/>
         <div className="app__main">
            <Sidebar />
+           Hello
            <Body/>
         </div>
        

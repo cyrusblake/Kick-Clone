@@ -2,9 +2,34 @@ import React from 'react'
 import './Stream.css'
 
 const Stream = () => {
-    return(
+    return (
         <div className='stream'>
             <div className="stream__container">
+
+
+
+                <div className="stream__videoEmbed">
+                    <iframe
+                        width="500"
+                        height="295"
+                        src="https://player.kick.com/cyrusblake89" 
+                        frameborder="0"
+                        scrolling="no" 
+                        allowfullscreen="true"
+
+                    >
+                   
+                    </iframe>
+                    {/* <iframe width="500" 
+                    height="295" 
+                    src="https://www.youtube.com/embed/onGE1-I2T6Y" 
+                    title="FINAL FANTASY XIV: DAWNTRAIL Teaser Trailer" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe> */}
+
+
+                </div>
                 <div className='stream__status'>
                     <div className="stream__statusContainer">
                         <div className="stream__statusContainerTop">
@@ -17,20 +42,7 @@ const Stream = () => {
                         </div>
                     </div>
                 </div>
-                <div className="stream__videoEmbed">
-                    <iframe
-                        width="500"
-                         hight="295"
-                        src="https://player.kick.com/cyrusblake89" 
-                        frameborder="0"
-                        scrolling="no" 
-                        allowfullscreen="true"
-
-                    >
-                   
-                    </iframe>
-
-                </div>
+                
             </div>
         </div>
     )

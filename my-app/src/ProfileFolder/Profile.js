@@ -18,11 +18,16 @@ const Profile = () => {
                 <i className='fas fa-bell graybg'></i>
                 <i className='fas fa-ellipsis-v'></i>
             </div>
+            <div className="profile__vAbout">
+                <h2>About CYFI</h2>
+                <h3>0 followers</h3>
+                <h3>It's your friendly neighborhood streamer.</h3>
+            </div>
             <div className="profile__menu">
                 <h2 className='active'>About</h2>
                 <h2>Videos</h2>
                 <h2>Clips</h2>
-                <h2><i className="fas fa-arrow-up"></i></h2>
+                {/* <h2><i className="fas fa-arrow-up"></i></h2> */}
                 <h2>Chat</h2>
             </div>
             <div className="profile__recent">
@@ -45,6 +50,8 @@ const Profile = () => {
                         title={'Grinding to Ranked'}
                     />
                 </div>
+                <br/>
+                <hr/>
                 <div className="profile__categories">
             
                     <h2>CYFI's recently streamed categories</h2>
@@ -61,6 +68,9 @@ const Profile = () => {
                     
                     
                 </div>
+                <br/>
+                <hr/>
+                <br/>
             </div>
         </div>
     )

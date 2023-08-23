@@ -1,5 +1,7 @@
 .profile {
     background-color: #0e0e10;
+    width: 1650px;
+    
 }
 
 .profile__top {
@@ -31,7 +33,28 @@
 }
 
 .profile__topRight>.graybg {
-    background-color: #35353a;
+    background-color: #3b3b47;
+}
+
+.profile__vAbout {
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    background-color:  rgb(46, 48, 51);
+    height: 200px;
+}
+
+.profile__vAbout>h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.profile__vAbout>h3 {
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 .profile__menu {
@@ -65,6 +88,12 @@
 
 .profile__recent {
     margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.profile__recent>h2 {
+   margin-bottom: 10px;
 
 }
 
@@ -78,9 +107,10 @@
 
 .profile__categories>h3 {
     margin-top: 10px;
+    
 }
 
-/* .profile__categoriesimg {
+.profile__categoriesimg {
     display: flex;
     
-} */
+}

@@ -2,16 +2,17 @@
     height: 50%;
     display: grid;
     place-items: center;
+    margin-left: 40px;
 }
 
 .stream__container {
     display: flex;
 }
 
-.strean__status {
+.stream__status {
     width: 400px;
     height: 295px;
-    background-color: #1f1f23;
+    background-color: black;
     margin-right: 30px;
 }
 
@@ -55,4 +56,5 @@
 .stream__videoEmbed {
     height: 295;
     width: 500;
+    margin-right: 20px;
 }

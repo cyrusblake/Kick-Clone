@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../HeaderFolder/Header'
 import Sidebar from '../SideBarFolder/Sidebar'
-import HomeBody from '../HomeBody/HomeBody'
-// import Body from '../BodyFolder/Body'
+import Body from '../BodyFolder/Body'
+import './ProfilePage.css'
 
 export default function Home(){
     return(
@@ -11,8 +11,7 @@ export default function Home(){
                 <Header/>
                 <div className="app__main">
                     <Sidebar />
-                    <HomeBody />
-                    {/* <Body/> */}
+                    <Body/>
                 </div>
         
                 {/* <BrowserRouter>

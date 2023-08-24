@@ -4,6 +4,10 @@
     
 }
 
+.profile__TLD>h1 {
+    color: white;
+}
+
 .profile__top {
     display:flex;
     align-items: center;

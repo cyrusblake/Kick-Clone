@@ -1,0 +1,80 @@
+.login{
+    /* background-color: yellowgreen; */
+    /* background-image: url(https://gumlet.assettype.com/afkgaming/2023-04/ea30d9ea-3290-4ca8-9bf4-f6b738d4903d/pokemon_unite__4_.png?compress=true&dpr=1); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    background-image: url(https://tv.topview0.com/wp-content/uploads/2023/03/og-1024x535.png);
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Login__body {
+    display: flex;
+    flex: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 880px;
+    height:fit-content;
+}
+
+.Login__Container{
+    background-color:  rgb(46, 48, 51);
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 440px;
+}
+
+.Login__Container>input{
+    background-color: darkgrey;
+    width: 390px;
+    border-radius: 5px;
+}
+
+.b1 {
+    color: black;
+    background-color: rgb(33 101 10);
+    font-weight: bold;
+    border-radius: 5px;
+    width: 400px;
+    height: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    line-height: 1.25;
+    
+}
+
+.b2 {
+    color: black;
+    background-color: darkgray;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 400px;
+    height: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    line-height: 1.25;
+}
+
+.b3 {
+    color: black;
+    background-color: darkgrey;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 400px;
+    height: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    line-height: 1.25;
+}

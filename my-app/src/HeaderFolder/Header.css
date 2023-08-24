@@ -24,19 +24,24 @@
     
 }
 
-.header__left>h2 {
-    margin: 20px;
+.header__left>h3 {
+    margin: 30px;
+    font-weight: 600;
 }
 
-.header__vl {
+.browse:hover{
+    color: yellowgreen;
+
+}
+
+/* .header__left>span {
+    margin-left: 15px;
+} */
+
+/* .header__vl {
     border-left: 1px solid gray;
     height: 3rem;
-}
-
-.header__left>span {
-    margin-left: 15px;
-}
-
+} */
 .header__center {
     background-color: black;
     color: white;
@@ -74,6 +79,30 @@
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
+    color: white;
+    
+} 
+
+
+
+.header__right>h3 {
+    margin: 20px;
+    font-weight: 600;
+}
+
+
+
+.signuph3{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
 }
 
 .header__rightContainer {

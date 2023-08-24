@@ -1,6 +1,6 @@
 import React from "react"
 import "../HeaderFolder/Header.css"
-import { Avatar } from "@mui/material"
+// import { Avatar } from "@mui/material"
 
 
 
@@ -14,9 +14,9 @@ const Header = () => {
                 <p></p>
                 <img className="hear__leftLogo"
                 src={logo} width="100px" alt="kick logo"/>
-                <h2>Following</h2>
-                <h2>Browse</h2>
-                <div className="header__vl"></div>
+                {/* <h2>Following</h2> */}
+                <h3 className="browse">Browse</h3>
+                {/* <div className="header__vl"></div> */}
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,-25" />
                 <span className="material-symbols-outlined">more_vert</span>
             </div>
@@ -34,9 +34,11 @@ const Header = () => {
             </div>
 
             <div className="header__right">
-                <div className="header__rightContainer">
+                {/* <div className="header__rightContainer">
                     <Avatar />
-                </div>
+                </div> */}
+                <h3 className="loginh3">Log In</h3>
+                <h3 className="signuph3">Sign Up</h3>
             </div>
         </div>
     )

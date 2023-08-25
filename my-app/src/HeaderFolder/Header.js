@@ -1,5 +1,6 @@
 import React from "react"
 import "../HeaderFolder/Header.css"
+import {Link} from 'react-router-dom'
 // import { Avatar } from "@mui/material"
 
 
@@ -11,9 +12,12 @@ const Header = () => {
     return (
         <div className="header"> 
             <div className="header__left">
-                <p></p>
-                <img className="hear__leftLogo"
-                src={logo} width="100px" alt="kick logo"/>
+                <Link to='/Home'>
+                    <img className="hear__leftLogo"
+                    src={logo} width="100px" alt="kick logo"/>
+                </Link>
+
+                
                 {/* <h2>Following</h2> */}
                 <h3 className="browse">Browse</h3>
                 {/* <div className="header__vl"></div> */}
@@ -37,8 +41,18 @@ const Header = () => {
                 {/* <div className="header__rightContainer">
                     <Avatar />
                 </div> */}
-                <h3 className="loginh3">Log In</h3>
-                <h3 className="signuph3">Sign Up</h3>
+                
+                <h3 className="loginh3">
+                    <Link to='/Login'>
+                        Log In
+                    </Link>
+                </h3>
+               
+                <h3 className="signuph3">
+                    <Link to='/Login'>
+                        Sign Up
+                    </Link>
+                </h3>
             </div>
         </div>
     )

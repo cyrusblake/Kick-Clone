@@ -1,5 +1,5 @@
 .header {
-    height: 5rem;
+    height: 4rem;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
 }
 
 .browse:hover{
-    color: yellowgreen;
+    color: rgb(83 252 24);
 
 }
 
@@ -44,11 +44,12 @@
 } */
 .header__center {
     background-color: black;
+    padding: 5px;
     color: white;
-    height: 3.5rem;
+    height: 2rem;
     display: flex;
-    width:25%;
-    border-radius: 8px;
+    width:15%;
+    border-radius: 5px;
     overflow: hidden;
     align-items: center;
 }
@@ -57,7 +58,7 @@
     outline: none;
     background-color: transparent;
     flex: 1;
-    margin-left: 15px;
+    /* margin-left: 5px; */
     font-size: large;
     border: none;
 }
@@ -80,7 +81,7 @@
     flex: 1;
     justify-content: flex-end;
     align-items: center;
-    color: white;
+   
     
 } 
 
@@ -89,12 +90,25 @@
 .header__right>h3 {
     margin: 20px;
     font-weight: 600;
+    
 }
 
 
+.theLLink {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.theSLink {
+    text-decoration: none;
+    color: black;
+
+}
 
 .signuph3{
-    background-color: yellowgreen;
+    background-color: rgb(83 252 24);
     border-radius: 10px;
     color: black;
     padding-top: 10px;

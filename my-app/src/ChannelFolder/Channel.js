@@ -8,7 +8,7 @@ const Channel = ({avatar, name, followers}) => {
             <div className="channel__details">
                 <img src={avatar} alt="avatar" />
 
-                <Link to='/ProfilePage'>
+                <Link className='theLink' to='/ProfilePage'>
                     <p>{name}</p>
                 </Link>
                  

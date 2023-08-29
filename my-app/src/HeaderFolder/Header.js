@@ -43,13 +43,13 @@ const Header = () => {
                 </div> */}
                 
                 <h3 className="loginh3">
-                    <Link to='/Login'>
+                    <Link className="theLLink" to='/Login'>
                         Log In
                     </Link>
                 </h3>
                
                 <h3 className="signuph3">
-                    <Link to='/Login'>
+                    <Link className="theSLink" to='/Login'>
                         Sign Up
                     </Link>
                 </h3>

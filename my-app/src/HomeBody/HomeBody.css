@@ -1,12 +1,30 @@
 .homebody {
-    background-color: greenyellow;
+    background-color: black;
     background-image: none;
     flex: 1;
-    display: flex;
+    /* display: flex; */
     height: 100vh;
     overflow: scroll;
+}
+
+.categories {
+    display: flex;
+    
 }
 
 .body__left {
     width: 90%;
 }
+
+.itemdetails {
+    
+    margin-top: 25px;
+}
+
+.itemdetails>img {
+    object-fit: contain;
+    height: 196px;
+    width: 140;
+    margin-right: 20px;
+
+}   

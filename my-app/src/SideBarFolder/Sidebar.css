@@ -1,10 +1,13 @@
 .sidebar {
     padding: 10px;
-    width: 13%;
+    padding-left: 15px;
+    padding-right: 25px;
+   
     background-color: #1f1f23;
     display: flex;
     color: white;
     flex-direction: column;
+    
 }
 
 .sidebar__top {
@@ -43,11 +46,11 @@
     padding-right: 5px;
 } */
 
-.siderbar__bottom>div>input {
+/* .siderbar__bottom>div>input {
     background-color: transparent;
     border:none;
     outline:none;
     font-size:large;
     width: 100%;
     margin-left: 10px;
-}
+} */

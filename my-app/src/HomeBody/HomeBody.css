@@ -4,12 +4,20 @@
     flex: 1;
     /* display: flex; */
     height: 100vh;
-    overflow: scroll;
+    align-items: center;
+   
+    
 }
 
 .categories {
     display: flex;
+    margin-left: 25px;
     
+    
+}
+
+h2 {
+    margin-left: 25px;
 }
 
 .body__left {
@@ -28,3 +36,13 @@
     margin-right: 20px;
 
 }   
+
+.groups {
+    display: flex;
+}
+
+.groups>img {
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 5px;
+}

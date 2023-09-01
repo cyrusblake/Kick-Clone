@@ -33,6 +33,7 @@ const Profile = () => {
             <div className="profile__recent">
                 <h2>Recent broadcasts</h2>
                 <div className='profile__recentItems'>
+                    
                     <RecentItem
                         url={'https://player.kick.com/cyrusblake89'}
                         title={'Grinding to Ranked'}

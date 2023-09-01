@@ -5,7 +5,8 @@ import './HomeBody.css'
 const HomeBody = () => {
     return (
         <div className="homebody">
-           <h2>Featured Streams</h2>
+            <div className="contents">
+                <h2>Featured Streams</h2>
            <h2>Top Live Categories</h2>
 
             <div className="categories">
@@ -101,6 +102,17 @@ const HomeBody = () => {
                 </div>
             </div>
             <img src="https://dbxmjjzl5pc1g.cloudfront.net/2c658949-18b2-42a7-bb92-90fe4d5602d3/images/banners/merch_banner.jpg" alt=""/>
+            <h2>Top Live Groups</h2>
+            <div className="groups">
+                <img src="https://dbxmjjzl5pc1g.cloudfront.net/c3617eac-3ff6-4fe8-bab8-dd37bd5c745f/images/categories/games.gif" alt=""/>
+                <img src="https://dbxmjjzl5pc1g.cloudfront.net/c3617eac-3ff6-4fe8-bab8-dd37bd5c745f/images/categories/irl.gif" alt=""/>
+                <img src="https://dbxmjjzl5pc1g.cloudfront.net/c3617eac-3ff6-4fe8-bab8-dd37bd5c745f/images/categories/music.gif" alt=""/>
+                <img src="https://dbxmjjzl5pc1g.cloudfront.net/c3617eac-3ff6-4fe8-bab8-dd37bd5c745f/images/categories/gambling.gif" alt=""/>
+                <img src="https://dbxmjjzl5pc1g.cloudfront.net/c3617eac-3ff6-4fe8-bab8-dd37bd5c745f/images/categories/creative.gif" alt=""/>
+                <img src="https://dbxmjjzl5pc1g.cloudfront.net/c3617eac-3ff6-4fe8-bab8-dd37bd5c745f/images/categories/alternative.gif" alt=""/>
+            </div>
+            </div>
+           
            
         </div>
     )

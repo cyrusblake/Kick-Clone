@@ -7,7 +7,16 @@ const HomeBody = () => {
         <div className="homebody">
             <div className="contents">
                 <h2>Featured Streams</h2>
-           <h2>Top Live Categories</h2>
+                <div>
+                    <div>
+                        <h2>Top Live Categories</h2>
+                    </div>
+                    <div>
+                        <p>View all</p>
+                    </div>
+                    
+                </div>
+                
 
             <div className="categories">
 

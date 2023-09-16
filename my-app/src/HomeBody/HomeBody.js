@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomeBody.css'
+import { Link } from 'react-router-dom'
 
 
 const HomeBody = () => {
@@ -8,12 +9,16 @@ const HomeBody = () => {
             <div className="contents">
                 <h2>Featured Streams</h2>
                 <div>
-                    <div>
-                        <h2>Top Live Categories</h2>
-                    </div>
-                    <div>
-                        <p>View all</p>
-                    </div>
+                    
+                    <h2>Top Live Categories</h2>
+                   
+                    
+                    <p>
+                        <Link className="" to='/Category'>
+                            View all
+                        </Link>
+                    </p>
+                  
                     
                 </div>
                 

@@ -7,6 +7,7 @@ import './App.css'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import ProfilePage from './pages/ProfilePage'
+import Category from './categoryFolder/Category'
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
         <BrowserRouter>
           <Routes>
               <Route index element={<Home />} />
-              <Route path='Login' element={<Login />} />
               <Route path='Home' element={<Home />} />
+              <Route path='Login' element={<Login />} />
               <Route path='ProfilePage' element={<ProfilePage />} />
+              <Route path='Category' element={<Category/>} />
           </Routes>
         </BrowserRouter>
       </div>

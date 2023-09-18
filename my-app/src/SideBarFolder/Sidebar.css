@@ -1,8 +1,10 @@
+
+
 .sidebar {
+    
     padding: 10px;
     padding-left: 15px;
     padding-right: 25px;
-   
     background-color: #1f1f23;
     display: flex;
     color: white;

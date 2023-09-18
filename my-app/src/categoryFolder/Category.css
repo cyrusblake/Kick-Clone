@@ -1,0 +1,28 @@
+* {
+    color:white;
+    -ms-overflow-style: none;
+  
+}
+  
+::-webkit-scrollbar {
+    display: none;
+}
+  
+.app__cat {
+    display: flex;
+}
+
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cats>div{
+    background-color: black;
+    width: 500px;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

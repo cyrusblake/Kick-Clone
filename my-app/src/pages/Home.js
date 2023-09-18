@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../HeaderFolder/Header'
 import Sidebar from '../SideBarFolder/Sidebar'
 import HomeBody from '../HomeBody/HomeBody'
+import './Home.css'
 // import Body from '../BodyFolder/Body'
 
 export default function Home(){

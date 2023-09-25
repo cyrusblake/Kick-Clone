@@ -19,7 +19,13 @@ const Header = () => {
 
                 
                 {/* <h2>Following</h2> */}
-                <h3 className="browse">Browse</h3>
+                <h3 >
+                    
+                    <Link className="browse" to='/Category'>
+                        Browse
+                    </Link>
+                    
+                </h3>
                 {/* <div className="header__vl"></div> */}
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,-25" />
                 <span className="material-symbols-outlined">more_vert</span>

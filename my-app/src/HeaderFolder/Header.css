@@ -29,6 +29,10 @@
     font-weight: 600;
 }
 
+.browse{
+    text-decoration: none;
+}
+
 .browse:hover{
     color: rgb(83 252 24);
 

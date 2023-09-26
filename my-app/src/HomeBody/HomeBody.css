@@ -7,6 +7,16 @@
     align-items: center; 
 }
 
+
+.hprofile__recentItems {
+    display: flex;
+    margin-left: 25px;
+}
+
+.hv>p{
+    text-align: right;
+}
+
 .categories {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +33,7 @@ h2 {
 
 .itemdetails {
     
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 .itemdetails>img {
@@ -41,7 +51,7 @@ h2 {
 }
 
 .groups>img {
-    
+    margin-bottom: 25px;
     margin-top: 25px;
     margin-left: 25px;
     border-radius: 5px;

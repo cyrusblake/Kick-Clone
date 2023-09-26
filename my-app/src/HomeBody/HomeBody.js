@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomeBody.css'
+import RecentItem from '../RecentFolder/RecentItem'
 import { Link } from 'react-router-dom'
 
 
@@ -8,7 +9,19 @@ const HomeBody = () => {
         <div className="homebody">
             <div className="contents">
                 <h2>Featured Streams</h2>
-                <div>
+                <div className='hprofile__recentItems'>
+                    
+                    <RecentItem
+                        url={'https://player.kick.com/cyrusblake89'}
+                        title={'Grinding to Ranked'}
+                    />
+                    <RecentItem
+                        url={'https://player.kick.com/cyrusblake89'}
+                        title={'Grinding to Ranked'}
+                    />
+                    
+                </div>
+                <div className="hv">
                     
                     <h2>Top Live Categories</h2>
                    
@@ -74,60 +87,6 @@ const HomeBody = () => {
                         <img src="https://files.kick.com/images/subcategories/16/banner/responsives/803cea32-1ef3-4620-8731-f3cdcf8b6206___banner_245_327.webp" alt=""/>
                         <div className="item__detailsText">
                             <h3>Pools Hot Tubs</h3>
-                            <p>39,704</p>
-                            <p>IRL</p>
-                        </div>
-                    </div>
-
-                    <div className="itemdetails">
-                        <img src="https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_245_327.webp" alt=""/>
-                        <div className="item__detailsText">
-                            <h3>Music Staions</h3>
-                            <p>39,704</p>
-                            <p>IRL</p>
-                        </div>
-                    </div>
-
-                    <div className="itemdetails">
-                        <img src="https://files.kick.com/images/subcategories/2/banner/responsives/93c82fc6-77e2-4dea-a4c9-4b4525541317___banner_172_229.webp" alt=""/>
-                        <div className="item__detailsText">
-                            <h3>Call of Duty: Mo</h3>
-                            <p>39,704</p>
-                            <p>IRL</p>
-                        </div>
-                    </div>
-
-                    <div className="itemdetails">
-                        <img src="https://files.kick.com/images/subcategories/1/banner/responsives/15e350ec-3408-4969-b4e2-e3d73f70ad47___banner_172_229.webp" alt=""/>
-                        <div className="item__detailsText">
-                            <h3>Apex Legends</h3>
-                            <p>39,704</p>
-                            <p>IRL</p>
-                        </div>
-                    </div>
-
-                    <div className="itemdetails">
-                        <img src="https://files.kick.com/images/subcategories/1778/banner/responsives/3db53a1f-f4cd-4689-9506-5b0e3759bc1f___banner_294_392.webp" alt=""/>
-                        <div className="item__detailsText">
-                            <h3>Indie Games</h3>
-                            <p>39,704</p>
-                            <p>IRL</p>
-                        </div>
-                    </div>
-
-                    <div className="itemdetails">
-                        <img src="https://files.kick.com/images/subcategories/1778/banner/responsives/3db53a1f-f4cd-4689-9506-5b0e3759bc1f___banner_294_392.webp" alt=""/>
-                        <div className="item__detailsText">
-                            <h3>Indie Games</h3>
-                            <p>39,704</p>
-                            <p>IRL</p>
-                        </div>
-                    </div>
-
-                    <div className="itemdetails">
-                        <img src="https://files.kick.com/images/subcategories/1778/banner/responsives/3db53a1f-f4cd-4689-9506-5b0e3759bc1f___banner_294_392.webp" alt=""/>
-                        <div className="item__detailsText">
-                            <h3>Indie Games</h3>
                             <p>39,704</p>
                             <p>IRL</p>
                         </div>

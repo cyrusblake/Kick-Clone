@@ -41,7 +41,7 @@
 }
 
 .profile__vAbout {
-    
+    display: flex;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 20px;
@@ -50,15 +50,17 @@
     height: 200px;
 }
 
-.profile__vAbout>h2 {
-    padding-top: 10px;
-    padding-left: 0px;
-    margin-bottom: 10px;
+.profile__vAbout > .div2{
+    margin-top: 30px;
+    padding-left: 500px;
 }
 
-.profile__vAbout>h3 {
+.h3div > h2 {
+    padding-top: 25px;
+}
+
+.h3div > h3{
     padding-left: 25px;
-    margin-bottom: 10px;
 }
 
 .profile__menu {
@@ -68,15 +70,12 @@
     margin-bottom: 25px;
 }
 
-.profile__menu>h2 {
-    margin-right: 15px;
-    cursor: pointer;
-   
-}
+
 
 .profile__menu>h2 {
     /* transform: rotate(45deg); */
     margin-right: -10px;
+    cursor: pointer;
     padding: 10px;
 }
 

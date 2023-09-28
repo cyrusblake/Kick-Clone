@@ -7,15 +7,30 @@
     align-items: center; 
 }
 
+h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
 
 .hprofile__recentItems {
     display: flex;
     margin-left: 25px;
 }
 
-.hv>p{
-    text-align: right;
+.hv{
+    display: flex;
+    margin: auto;
+
 }
+.hv>div>p{
+    
+    text-align: right;
+    padding-left: 700px; 
+    margin-top: 25px;
+}
+
+
 
 .categories {
     display: flex;
@@ -23,9 +38,6 @@
     margin-left: 25px;
 }
 
-h2 {
-    margin-left: 25px;
-}
 
 .body__left {
     width: 90%;
@@ -52,7 +64,7 @@ h2 {
 
 .groups>img {
     margin-bottom: 25px;
-    margin-top: 25px;
+    
     margin-left: 25px;
     border-radius: 5px;
     width: 150px;

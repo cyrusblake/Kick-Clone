@@ -19,13 +19,29 @@ const Profile = () => {
                 <i className='fas fa-ellipsis-v'></i>
             </div>
             <div className="profile__vAbout">
-                <h2>About CYFI</h2>
-                <h3>0 followers</h3>
-                <h3>It's your friendly neighborhood streamer.</h3>
+                <div>
+                    <div className="h2div">
+
+                    </div>
+                    <h2>About CYFI</h2>
+                    <div className="h3div">
+                        <h3>0 followers</h3>
+                        <h3>It's your friendly neighborhood streamer.</h3>
+                    </div>
+                    
+                </div>
+                <div className='div2'>
+                    <p>Twitter</p>
+                    <p>Facebook</p>
+                    <p>Instgram</p>
+                    <p>YouTube</p>
+                    <p>Discord</p>
+                </div>
+                
             </div>
             <div className="profile__menu">
-                <h2 className='active'>About</h2>
-                <h2>Videos</h2>
+                <h2>About</h2>
+                <h2 className='active'>Videos</h2>
                 <h2>Clips</h2>
                 {/* <h2><i className="fas fa-arrow-up"></i></h2> */}
                 <h2>Chat</h2>

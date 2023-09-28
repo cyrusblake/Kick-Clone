@@ -22,17 +22,16 @@ const HomeBody = () => {
                     
                 </div>
                 <div className="hv">
-                    
-                    <h2>Top Live Categories</h2>
-                   
-                    
-                    <p>
-                        <Link className="" to='/Category'>
-                            View all
-                        </Link>
-                    </p>
-                  
-                    
+                    <div>
+                        <h2>Top Live Categories</h2>
+                    </div> 
+                    <div className="hvp">
+                        <p>
+                            <Link className="" to='/Category'>
+                                View all
+                            </Link>
+                        </p>
+                    </div>     
                 </div>
                 
 

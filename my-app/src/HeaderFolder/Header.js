@@ -2,6 +2,7 @@ import React from "react"
 import "../HeaderFolder/Header.css"
 import {Link} from 'react-router-dom'
 import Login from "../pages/Login"
+import Signup from '../pages/Signup'
 // import { Avatar } from "@mui/material"
 
 
@@ -27,6 +28,11 @@ const Header = () => {
                     </Link>
                     
                 </h3>
+                <h3>
+                    <Link className="browse">
+                        Following
+                    </Link>
+                </h3>
                 {/* <div className="header__vl"></div> */}
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,-25" />
                 <span className="material-symbols-outlined">more_vert</span>
@@ -45,8 +51,13 @@ const Header = () => {
             </div>
 
             <div className="header__right">
-                <Login/>
-                <Login/>
+               
+                    <Login/>
+                
+                
+                    <Signup/>
+              
+                
                 {/* <div className="header__rightContainer">
                     <Avatar />
                 </div> */}

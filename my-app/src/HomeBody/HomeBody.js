@@ -19,6 +19,10 @@ const HomeBody = () => {
                         url={'https://player.kick.com/cyrusblake89'}
                         title={'Grinding to Ranked'}
                     />
+                    <RecentItem
+                        url={'https://player.kick.com/cyrusblake89'}
+                        title={'Grinding to Ranked'}
+                    />
                     
                 </div>
                 <div className="hv">

@@ -72,19 +72,22 @@
 
 }
 
-.ih3 {
-    /* background-color:rgb(83 252 24) ; */
+.sh3 {
+    background-color:rgb(83 252 24) ;
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
-    color:white;
+    color:black;
+    /* width: 140px; */
     cursor: pointer;
     font-size: 20px;
     margin-top: 45px;
     font-weight: 600;
 }
 
-.ih1 {
+.sh1 {
     margin-top: 20px;
     margin-bottom: 20px;
     
@@ -125,7 +128,7 @@
  }
  
  
- .lb {
+ .sb {
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 15px;
@@ -151,5 +154,3 @@
     text-decoration: none;
     color: white;
  } 
-
-

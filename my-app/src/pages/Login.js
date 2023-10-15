@@ -1,33 +1,36 @@
 import React from 'react';
 import './Login.css'
+import {Link} from 'react-router-dom'
 
 export default function Login(){
 
+    function togglePopup(){
+        document.getElementById("popup-1").classList.toggle("active");
+    }
+
     return(
         <>
-            <div className="login">
-                <div className="Login__body"> 
-                    <div className="Login__Container">
-                        <img src="" alt=""/>
-                        <h3>Log in</h3>
-                        <h3>Sign Up</h3>
-                        <h4>Email or username</h4>
-                        <input style={{color: 'white'}} type="text" placeholder="you@example.com" />{' '}
-                        <h4>Password</h4>
-                        <input style={{color: 'white'}} type="text" placeholder="" />{' '}
-                        <button className='b1'>Log in</button>
-                        <button className="b2">Log in with Google</button>
-                        <button className="b3">Log in with Apple</button>
-                    </div>
-                    <div className="Login__IMG">
-                        <img 
-                        src="https://dbxmjjzl5pc1g.cloudfront.net/bdc232bd-f0ee-413c-92a5-4e4bf940beac/images/kick-signin-cover.jpg"
-                        height="868"
-                        width="440"        
-                         alt=""/>
-                    </div>
+            <div className="popup" id="popup-1">
+                <div className="overlay"></div>
+                <div className="popup_content">
+                    <div className="close-btn " onClick={togglePopup}>&times;</div>
+                    <h1 className='ih1'>Log in to Contor</h1>
+                    
+                    <form>
+                        <div className='uu'>
+                            <p>Username</p>
+                            <input className="userI" placeholder='Enter Username'/>
+                        </div>
+                        <div className='up'>
+                            <p>Password</p>
+                            <input className="userI" placeholder='Enter Password' />
+                        </div>
+                        <button type="submit" className='lb'>Log In</button> 
+                        </form>
+                        <Link to='/SignUp' className="b-btn">Don't have an account? Sign Up</Link>
                 </div>
-            </div>
+             </div>
+        <h3 className="sh3" onClick={togglePopup}>View Definition</h3>
         </>
     )
 }

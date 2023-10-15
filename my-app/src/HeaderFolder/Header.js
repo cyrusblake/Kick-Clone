@@ -1,6 +1,7 @@
 import React from "react"
 import "../HeaderFolder/Header.css"
 import {Link} from 'react-router-dom'
+import Login from "../pages/Login"
 // import { Avatar } from "@mui/material"
 
 
@@ -44,11 +45,13 @@ const Header = () => {
             </div>
 
             <div className="header__right">
+                <Login/>
+                <Login/>
                 {/* <div className="header__rightContainer">
                     <Avatar />
                 </div> */}
                 
-                <h3 className="loginh3">
+                {/* <h3 className="loginh3">
                     <Link className="theLLink" to='/Login'>
                         Log In
                     </Link>
@@ -58,7 +61,7 @@ const Header = () => {
                     <Link className="theSLink" to='/Login'>
                         Sign Up
                     </Link>
-                </h3>
+                </h3> */}
             </div>
         </div>
     )

@@ -1,80 +1,156 @@
-.login{
-    /* background-color: yellowgreen; */
-    /* background-image: url(https://gumlet.assettype.com/afkgaming/2023-04/ea30d9ea-3290-4ca8-9bf4-f6b738d4903d/pokemon_unite__4_.png?compress=true&dpr=1); */
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.popup {
     
-    background-image: url(https://tv.topview0.com/wp-content/uploads/2023/03/og-1024x535.png);
-    position: absolute;
-    top:0px;
-    right:0px;
-    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0px;
     left: 0px;
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    display: none;
 }
 
-.Login__body {
-    display: flex;
-    flex: 1;
+.popup_content {
+    border-radius: 5px;
+    position:absolute;
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    color: blue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: rgb(36, 39, 43);
+    /* width: 300px; */
+    height: auto;
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup_content>h1{
+ text-align: center;
+}
+
+.popup_content>p{
+    text-align: center;
+}
+
+.close-btn {
+    cursor: pointer;
     position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 880px;
-    height:fit-content;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(36, 39, 43);
+    color: rgb(83 252 24);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+
 }
 
-.Login__Container{
-    background-color:  rgb(46, 48, 51);
-    padding-top: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 440px;
+.popup.active .overlay {
+    display: block;
 }
 
-.Login__Container>input{
-    background-color: darkgrey;
-    width: 390px;
+.popup.active .popup_content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.fh{
+    margin-top: 25px;
+
+}
+
+.sh3 {
+    background-color: rgb(36, 95, 255) ;
     border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    width: 140px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 45px;
+    font-weight: 600;
 }
 
-.b1 {
-    color: black;
-    background-color: rgb(83 252 24);
-    font-weight: bold;
-    border-radius: 5px;
-    width: 400px;
-    height: 2.25rem;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    line-height: 1.25;
+.ih1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     
-}
-
-.b2 {
-    color: black;
-    background-color: darkgray;
-    color: white;
+ }
+ 
+ .uu{
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+ .uu>p{
     font-weight: bold;
-    border-radius: 5px;
-    width: 400px;
-    height: 2.25rem;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    line-height: 1.25;
-}
-
-.b3 {
-    color: black;
-    background-color: darkgrey;
-    color: white;
+ }
+ 
+ 
+ 
+ .up {
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+ 
+ .up>p{
     font-weight: bold;
+ }
+ .userI {
+    
+    margin-top: 10px;
+    width: 425px; 
+    height: 25px;
+    border: solid;
+    border-width: 4px;
+    background-color: white;
     border-radius: 5px;
-    width: 400px;
-    height: 2.25rem;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    line-height: 1.25;
-}
+    border-color: rgb(83 252 24);
+    color: black;
+    padding-left: 10px;
+ }
+ 
+ 
+ .lb {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color:rgb(83 252 24);
+    border-radius: 5px;
+    text-align: center;
+    border:none;
+    color: black;
+    width: 445px;
+    height:30px;
+    cursor: pointer;
+ 
+ }
+ 
+ input::placeholder {
+    color: black;
+ }
+ 
+ .b-btn {
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+ } 
+
+

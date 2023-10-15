@@ -1,20 +1,20 @@
 import React from 'react';
-import './Login.css'
+import './Signup.css'
 import {Link} from 'react-router-dom'
 
 export default function Login(){
 
     function togglePopup(){
-        document.getElementById("popup-1").classList.toggle("active");
+        document.getElementById("popup-2").classList.toggle("active");
     }
 
     return(
         <>
-            <div className="popup" id="popup-1">
+            <div className="popup" id="popup-2">
                 <div className="overlay"></div>
                 <div className="popup_content">
                     <div className="close-btn " onClick={togglePopup}>&times;</div>
-                    <h1 className='ih1'>Log in to Kick</h1>
+                    <h1 className='sh1'>Sign up to Kick</h1>
                     
                     <form>
                         <div className='uu'>
@@ -25,12 +25,14 @@ export default function Login(){
                             <p>Password</p>
                             <input className="userI" placeholder='Enter Password' />
                         </div>
-                        <button type="submit" className='lb'>Log In</button> 
+                        <button type="submit" className='sb'>Sign up</button> 
                     </form>
-                    <Link to='/SignUp' className="b-btn">Don't have an account? Sign Up</Link>
+                    <Link to='/SignUp' className="b-btn">Have an account already? Log In</Link>
                 </div>
              </div>
-        <h3 className="ih3" onClick={togglePopup}>Log In</h3>
+        <h3 className="sh3" onClick={togglePopup}>
+            Sign Up
+        </h3>
         </>
     )
 }

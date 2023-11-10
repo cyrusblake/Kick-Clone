@@ -20,7 +20,7 @@ function App() {
         </div> */}
         <BrowserRouter>
           <Routes>
-              <Route index element={<Home />} />
+              <Route index element={<ProfilePage/>} />
               <Route path='Home' element={<Home />} />
               <Route path='Login' element={<Login />} />
               <Route path='ProfilePage' element={<ProfilePage />} />
